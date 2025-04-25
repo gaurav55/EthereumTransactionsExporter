@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthereumTransactionsExporter.API", "EthereumTransactionsExporter.API\EthereumTransactionsExporter.API.csproj", "{8D39D3CC-F67D-4B26-82AE-6A4C5121199D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthereumTransactionsExporter.Domain", "EthereumTransactionsExporter.Domain\EthereumTransactionsExporter.Domain.csproj", "{6A3CBCCE-4ACE-46D1-A68F-EF5084AD1398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthereumTransactionsExporter.Application", "EthereumTransactionsExporter.Application\EthereumTransactionsExporter.Application.csproj", "{DAA3E4D9-6878-412D-AC93-7B5A4D1FC133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthereumTransactionsExporter.Infrastructure", "EthereumTransactionsExporter.Infrastructure\EthereumTransactionsExporter.Infrastructure.csproj", "{E12842E6-78DB-4C5E-8BB1-A9D45EC7BB7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EthereumTransactionsExporter.UnitTests", "EthereumTransactionsExporter.UnitTests\EthereumTransactionsExporter.UnitTests.csproj", "{A3439437-DF23-420F-B694-B21032BC6F63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D39D3CC-F67D-4B26-82AE-6A4C5121199D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D39D3CC-F67D-4B26-82AE-6A4C5121199D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D39D3CC-F67D-4B26-82AE-6A4C5121199D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D39D3CC-F67D-4B26-82AE-6A4C5121199D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3CBCCE-4ACE-46D1-A68F-EF5084AD1398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3CBCCE-4ACE-46D1-A68F-EF5084AD1398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3CBCCE-4ACE-46D1-A68F-EF5084AD1398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3CBCCE-4ACE-46D1-A68F-EF5084AD1398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA3E4D9-6878-412D-AC93-7B5A4D1FC133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA3E4D9-6878-412D-AC93-7B5A4D1FC133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA3E4D9-6878-412D-AC93-7B5A4D1FC133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA3E4D9-6878-412D-AC93-7B5A4D1FC133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12842E6-78DB-4C5E-8BB1-A9D45EC7BB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12842E6-78DB-4C5E-8BB1-A9D45EC7BB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12842E6-78DB-4C5E-8BB1-A9D45EC7BB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12842E6-78DB-4C5E-8BB1-A9D45EC7BB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3439437-DF23-420F-B694-B21032BC6F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3439437-DF23-420F-B694-B21032BC6F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3439437-DF23-420F-B694-B21032BC6F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3439437-DF23-420F-B694-B21032BC6F63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03A7CCBB-03D3-4F76-8141-C13D1D113562}
+	EndGlobalSection
+EndGlobal
