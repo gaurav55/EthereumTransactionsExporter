@@ -13,7 +13,7 @@ A simple, scalable .NET core Web API that fetches Ethereum wallet transactions u
 - Git
 
 ---
-# project structure 
+# Project structure 
 
 - EthereumTransactionsExporter.API            ->  Web API project - main entry point
 - EthereumTransactionsExporter.Application    ->  Application logic
@@ -33,7 +33,6 @@ A simple, scalable .NET core Web API that fetches Ethereum wallet transactions u
 - Use queue to store addresses 
 - Worker service fetches and processes transactions
 - Use Hosted Service for background jobs
-- Store csv in some folder
 - Retry mechanism 
 - Rate limiting
 
