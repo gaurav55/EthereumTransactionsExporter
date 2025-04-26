@@ -62,7 +62,7 @@ dotnet restore
 ### 4. Run the API
 
 ```
-dotnet run --project EthereumTransactionApi
+dotnet run --project EthereumTransactionsExporter.API
 
 ```
 
@@ -84,7 +84,7 @@ curl -X 'GET' \
 Navigate to the test project folder 
 
 ```
-cd EthereumTransactionApi.Tests
+cd EthereumTransactionsExporter.UnitTests
 ```
 
 ### Run the tests using dotnet test:
