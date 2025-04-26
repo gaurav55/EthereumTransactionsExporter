@@ -28,18 +28,26 @@ A simple, scalable .NET core Web API that fetches Ethereum wallet transactions u
 - Unit testing controller and services. For now just 1 running test is written. Added few dummy tests without any implementation.
 - Logging exceptions and information messages.
 
+# Areas of improvement 
+### Scaling async with the use of Queue
+- Use queue to store addresses 
+- Worker service fetches and processes transactions
+- Use Hosted Service for background jobs
+- Store csv in some folder
+- Retry mechanism 
+- Rate limiting
 
 
 # Setup Instructions for macOS and VS Code
 
-# 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 https://github.com/gaurav55/EthereumTransactionsExporter.git
 
 ```
 
-# 2. Set Environment Variable
+### 2. Set Environment Variable
 
 Update the AlchemyApiKey Api key in appsettings.json file of EthereumTransactionsExporter.API project. 
 ```
@@ -47,24 +55,24 @@ apiky = youAlchemyApiKey
 
 ```
 
-# 3. Restore Dependencies
+### 3. Restore Dependencies
 ```bash
 dotnet restore
 ```
 
-# 4. Run the API
+### 4. Run the API
 
 ```
 dotnet run --project EthereumTransactionApi
 
 ```
 
-# API can be accessed on swagger at:
+### API can be accessed on swagger at:
 ```
 http://localhost:5150/swagger/index.html
 ```
 
-# Curl to make a request
+### Curl to make a request
 
 ```
 curl -X 'GET' \
@@ -72,7 +80,7 @@ curl -X 'GET' \
   -H 'accept: */*'
 ```
 
-# How to Run the Tests
+### How to Run the Tests
 
 Navigate to the test project folder 
 
@@ -80,7 +88,7 @@ Navigate to the test project folder
 cd EthereumTransactionApi.Tests
 ```
 
-# Run the tests using dotnet test:
+### Run the tests using dotnet test:
 
 ```
 dotnet test
